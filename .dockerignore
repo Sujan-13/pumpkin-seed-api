@@ -1,0 +1,37 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Development tools and notebooks
+.git/
+.gitignore
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Tests, coverage, and build artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local database files
+*.db
+
+# Unneeded project data and checkpoints for the API image
+Dataset/
+model/.ipynb_checkpoints/
+app/__pycache__/
